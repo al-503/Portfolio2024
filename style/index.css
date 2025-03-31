@@ -1,0 +1,36 @@
+/* ici import de tout le css */
+@import url("respponsive.css");
+@import url("images.css");
+@import url("cuisinier.css");
+@import url("developpeur.css");
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F4F8F5;
+    overflow-x: clip;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.sectionTitle {
+    padding: 3px;
+    /*for responsive*/
+    text-align: justify;
+    font-size: 5em;
+    margin-top: 0;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
