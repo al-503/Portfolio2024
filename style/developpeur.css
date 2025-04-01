@@ -7,19 +7,19 @@
     margin-left: 0;
 }
 
-.developpeur-illu {
+.developpeurIllu {
     margin-top: 3%;
-    width: 60%;
-    height: 80%;
+    width: 60vw;
+    height: 75vh;
 }
 
-.devTitle {
+.developpeur h1 {
     margin-right: 30rem;
     margin-top: 2rem;
 }
 
 .toqueDeChef {
     position: absolute;
-    top: 55%;
-    left: 65%;
+    top: 57%;
+    left: 66%;
 }

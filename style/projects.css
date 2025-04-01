@@ -6,3 +6,17 @@
     margin: 2rem;
     margin-left: 0;
 }
+
+#projects h1 {
+    position: absolute;
+    top: 98%;
+    font-weight: lighter;
+    font-size: 5rem;
+    margin: 1rem;
+    color: var(--text-color);
+}
+
+.gitHub {
+    margin: 10em auto;
+    text-align: center;
+}

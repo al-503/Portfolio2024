@@ -5,3 +5,17 @@
     margin: 1rem;
     margin-left: 0;
 }
+
+#contact h1 {
+    position: absolute;
+    top: 191%;
+    font-weight: lighter;
+    font-size: 5rem;
+    margin: 1rem;
+    color: var(--text-color);
+}
+
+.linkedin {
+    margin: 10em auto;
+    text-align: center;
+}

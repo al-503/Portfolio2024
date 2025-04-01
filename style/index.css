@@ -5,6 +5,7 @@
 @import url("navigation.css");
 @import url("stackTechnique.css");
 @import url("projects.css");
+@import url("404.css");
 
 /* Variable */
 :root {
@@ -50,4 +51,9 @@ header {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+}
+
+footer {
+    background-color: var(--hover-color);
+    height: 7vh;
 }
