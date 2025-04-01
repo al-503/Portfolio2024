@@ -1,8 +1,8 @@
 /* ici import de tout le css */
-@import url("respponsive.css");
-@import url("images.css");
 @import url("cuisinier.css");
 @import url("developpeur.css");
+@import url("contact.css");
+@import url("navigation.css");
 
 body {
     text-align: center;
@@ -19,6 +19,12 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+header {
+    height: 0px;
+    position: sticky;
+    top: 15rem;
 }
 
 .sectionTitle {
