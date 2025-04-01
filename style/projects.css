@@ -17,6 +17,9 @@
 }
 
 .gitHub {
+    height: 20rem;
+    width: 20rem;
     margin: 10em auto;
+    margin-right: 50rem;
     text-align: center;
 }

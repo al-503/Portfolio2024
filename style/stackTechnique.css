@@ -14,14 +14,14 @@
 
 .FrontPanel {
     position: absolute;
-    left: 90rem;
+    left: 96rem;
     top: 20rem;
 }
 
 .BackPanel {
     display: flex;
     position: absolute;
-    left: 90rem;
+    left: 70rem;
 }
 
 .DBPanel {
