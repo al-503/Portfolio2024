@@ -4,11 +4,20 @@
 @import url("contact.css");
 @import url("navigation.css");
 @import url("stackTechnique.css");
+@import url("projects.css");
+
+/* Variable */
+:root {
+    --background-color: #F4FBF7;
+    --text-color: #1D3B31;
+    --interactive-color: #C3E9D7;
+    --hover-color: #8BCEB6;
+}
 
 body {
     text-align: center;
     margin: 0 auto;
-    background-color: #F4F8F5;
+    background-color: var(--background-color);
     overflow-x: clip;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
@@ -16,6 +25,7 @@ body {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    color: var(--text-color);
 }
 
 body::-webkit-scrollbar {
