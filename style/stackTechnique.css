@@ -1,0 +1,31 @@
+.techIcons {
+    text-align: justify;
+}
+
+.techIcon {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.8rem;
+}
+
+.techPanels {
+    position: absolute;
+}
+
+.FrontPanel {
+    position: absolute;
+    left: 90rem;
+    top: 20rem;
+}
+
+.BackPanel {
+    display: flex;
+    position: absolute;
+    left: 90rem;
+}
+
+.DBPanel {
+    position: absolute;
+    left: 16rem;
+    top: 10rem;
+}
