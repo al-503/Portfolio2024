@@ -18,8 +18,11 @@
 }
 
 .gitHub {
-    height: 20rem;
-    width: 20rem;
+    height: 100px;
+    position: absolute;
+    left: 40em;
+    top: 65em;
+    width: 100px;
     margin: 10em auto;
     text-align: center;
 }
@@ -31,6 +34,9 @@
     border-radius: 25px;
     width: 50vw;
     height: 50vh;
+    background: url("../images/SoftwareEngineer-bro.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .projectItem {

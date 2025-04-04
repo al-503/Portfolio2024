@@ -1,5 +1,3 @@
-#developpeur {}
-
 .developpeurIllu {
     margin-top: 3%;
     height: 75vh;
@@ -14,4 +12,9 @@
     position: absolute;
     top: 56%;
     left: 66%;
+}
+
+.toqueIcon {
+    width: 3rem;
+    padding: 1.1rem;
 }

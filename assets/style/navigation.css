@@ -34,6 +34,6 @@ li {
 }
 
 .navIcon:hover {
-    background: url("../assets/images/navLogos/background.svg");
+    background: url("../images/navLogos/background.svg");
     z-index: -1;
 }
