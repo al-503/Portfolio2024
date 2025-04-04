@@ -1,7 +1,15 @@
 ul {
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    padding: 0;
+    padding: 2px;
     margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .navbar {
@@ -9,11 +17,10 @@ ul {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: solid var(--text-color) 2px;
     background-color: var(--interactive-color);
     width: 3rem;
     height: 15rem;
-    border-radius: 1rem;
+    border-radius: 5px;
     position: sticky;
     top: 10rem;
     padding: 0.5rem;
@@ -24,4 +31,9 @@ ul {
 .navIcon {
     width: 3rem;
     padding: 1.1rem;
+}
+
+.navIcon:hover {
+    background: url("../assets/images/navLogos/background.svg");
+    z-index: -1;
 }

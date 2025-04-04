@@ -3,8 +3,9 @@
     height: 53rem;
     padding: 1rem;
     padding-top: 3rem;
-    margin: 2rem;
+    margin: 2rem auto;
     margin-left: 0;
+    display: flex;
 }
 
 #projects h1 {
@@ -20,6 +21,18 @@
     height: 20rem;
     width: 20rem;
     margin: 10em auto;
-    margin-right: 50rem;
     text-align: center;
+}
+
+.projectList {
+    box-shadow: inset 0 0 15px var(--text-color);
+    margin: 5em auto;
+    margin-right: 7em;
+    border-radius: 25px;
+    width: 50vw;
+    height: 50vh;
+}
+
+.projectItem {
+    background-color: aqua;
 }
