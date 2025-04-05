@@ -13,7 +13,11 @@
 
 /* Laptop / desktop (1024px – 1439px) */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    /* ... */
+    .ErrorPage {
+        margin-top: 3%;
+        width: 60vw;
+        height: 75vh;
+    }
 }
 
 /* Tablette paysage (900px – 1023px) */
@@ -33,5 +37,9 @@
 
 /* Mobile petit (≤ 479px) */
 @media screen and (max-width: 479px) {
-    /* ... */
+    .ErrorPage {
+        margin-top: 3%;
+        width: 60vw;
+        height: 75vh;
+    }
 }
