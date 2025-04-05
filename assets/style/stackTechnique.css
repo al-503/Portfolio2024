@@ -1,0 +1,104 @@
+.techIcons {
+    text-align: justify;
+}
+
+.techPanels {
+    position: absolute;
+}
+
+.FrontPanel {
+    position: absolute;
+}
+
+.BackPanel {
+    display: flex;
+    position: absolute;
+}
+
+.DBPanel {
+    position: absolute;
+}
+
+@media screen and (min-width: 1440px) {
+
+    /* Styles pour ordinateurs grand écran*/
+    .techIcon {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.8rem;
+    }
+
+    .FrontPanel {
+        left: 90vw;
+        top: 30vh;
+    }
+
+    .BackPanel {
+        left: 76vw;
+    }
+
+    .DBPanel {
+        left: 12rem;
+        top: 10rem;
+    }
+}
+
+/* Laptop / desktop (1024px – 1439px) */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .techIcon {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.8rem;
+    }
+
+    .FrontPanel {
+        left: 86vw;
+        top: 25vh;
+    }
+
+    .BackPanel {
+        left: 68vw;
+    }
+
+    .DBPanel {
+        left: 22vw;
+        top: -5vh;
+    }
+}
+
+/* Tablette paysage (900px – 1023px) */
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    /* ... */
+}
+
+/* Tablette portrait (768px – 899px) */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    /* ... */
+}
+
+/* Mobile standard (480px – 767px) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* ... */
+}
+
+/* Mobile petit (≤ 479px) */
+@media screen and (max-width: 479px) {
+    .techIcon {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0.8rem;
+    }
+
+    .FrontPanel {
+        left: 86vw;
+        top: 8vh;
+    }
+
+    .BackPanel {
+        left: 68vw;
+    }
+
+    .DBPanel {
+        left: 10vw;
+    }
+}

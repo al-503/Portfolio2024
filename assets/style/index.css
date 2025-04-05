@@ -39,20 +39,6 @@ header {
     top: 15rem;
 }
 
-.sectionTitle {
-    padding: 3px;
-    /*for responsive*/
-    text-align: justify;
-    font-size: 5em;
-    margin-top: 0;
-    font-family: "Inconsolata", monospace;
-    font-optical-sizing: auto;
-    font-weight: lighter;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
-
 footer {
     background-color: var(--hover-color);
     height: 7vh;

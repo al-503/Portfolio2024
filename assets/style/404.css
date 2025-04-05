@@ -1,0 +1,37 @@
+.ErrorPage {
+    margin-top: 3%;
+}
+
+/* Styles pour ordinateurs grand écran*/
+@media screen and (min-width: 1440px) {
+    .ErrorPage {
+        margin-top: 3%;
+        width: 60vw;
+        height: 75vh;
+    }
+}
+
+/* Laptop / desktop (1024px – 1439px) */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* ... */
+}
+
+/* Tablette paysage (900px – 1023px) */
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    /* ... */
+}
+
+/* Tablette portrait (768px – 899px) */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    /* ... */
+}
+
+/* Mobile standard (480px – 767px) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* ... */
+}
+
+/* Mobile petit (≤ 479px) */
+@media screen and (max-width: 479px) {
+    /* ... */
+}

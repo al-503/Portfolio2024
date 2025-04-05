@@ -1,0 +1,73 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--interactive-color);
+    border-radius: 5px;
+    position: sticky;
+    top: 10rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.navIcon {
+    width: 3rem;
+    padding: 1.1rem;
+}
+
+.navIcon:hover {
+    background: url("../images/navLogos/background.svg");
+    z-index: -1;
+}
+
+.navbar {
+    width: 3rem;
+    height: 15rem;
+}
+
+@media screen and (min-width: 1440px) {
+    /* Styles pour ordinateurs grand écran*/
+}
+
+/* Laptop / desktop (1024px – 1439px) */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* ... */
+}
+
+/* Tablette paysage (900px – 1023px) */
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    /* ... */
+}
+
+/* Tablette portrait (768px – 899px) */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    /* ... */
+}
+
+/* Mobile standard (480px – 767px) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* ... */
+}
+
+/* Mobile petit (≤ 479px) */
+@media screen and (max-width: 479px) {
+    .navbar {
+        display: none;
+    }
+}

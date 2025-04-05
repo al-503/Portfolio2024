@@ -1,0 +1,67 @@
+#contact {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#contact h1 {
+    position: absolute;
+    font-weight: lighter;
+    font-size: 5rem;
+    color: var(--text-color);
+}
+
+.linkedin {
+    margin: 10em auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+
+    /* Styles pour ordinateurs grand écran*/
+    #contact {
+        width: 100%;
+        height: 53rem;
+        margin-left: 0;
+    }
+
+    #contact h1 {
+        top: 191%;
+        margin: 1rem;
+    }
+
+    .linkedin {
+        margin: 10em auto;
+        margin-left: 50rem;
+    }
+}
+
+/* Laptop / desktop (1024px – 1439px) */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .linkedin {
+        margin: 10em auto;
+        width: 100px;
+    }
+}
+
+/* Tablette paysage (900px – 1023px) */
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    /* ... */
+}
+
+/* Tablette portrait (768px – 899px) */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    /* ... */
+}
+
+/* Mobile standard (480px – 767px) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* ... */
+}
+
+/* Mobile petit (≤ 479px) */
+@media screen and (max-width: 479px) {
+    .linkedin {
+        margin: 10em auto;
+        width: 100px;
+    }
+}
