@@ -82,17 +82,74 @@ article {
 
 /* Tablette paysage (900px – 1023px) */
 @media screen and (min-width: 900px) and (max-width: 1023px) {
-    /* ... */
+    #cuisinier {
+        width: 100%;
+        height: 53rem;
+    }
+
+    .HomeLink h1 {
+        font-size: 5rem;
+        left: 0;
+        top: 0;
+        margin: 1rem;
+    }
+
+    .cookingIllu {
+        width: 40vw;
+        height: 70vh;
+    }
+
+    article {
+        width: 40%;
+    }
 }
 
 /* Tablette portrait (768px – 899px) */
 @media screen and (min-width: 768px) and (max-width: 899px) {
-    /* ... */
+    #cuisinier {
+        width: 100%;
+        height: 53rem;
+    }
+
+    .HomeLink h1 {
+        font-size: 5rem;
+        left: 0;
+        top: 0;
+        margin: 1rem;
+    }
+
+    .cookingIllu {
+        width: 40vw;
+        height: 70vh;
+    }
+
+    article {
+        width: 40%;
+    }
 }
 
 /* Mobile standard (480px – 767px) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    /* ... */
+    #cuisinier {
+        width: 100%;
+        height: 53rem;
+    }
+
+    .HomeLink h1 {
+        font-size: 5rem;
+        left: 0;
+        top: 0;
+        margin: 1rem;
+    }
+
+    .cookingIllu {
+        width: 40vw;
+        height: 70vh;
+    }
+
+    article {
+        width: 40%;
+    }
 }
 
 /* Mobile petit (≤ 479px) */

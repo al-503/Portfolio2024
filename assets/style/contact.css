@@ -30,6 +30,7 @@
     }
 
     .linkedin {
+        width: 9%;
         margin: 10em auto;
         margin-left: 50rem;
     }
@@ -39,29 +40,38 @@
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     .linkedin {
         margin: 10em auto;
-        width: 100px;
+        width: 9%;
     }
 }
 
 /* Tablette paysage (900px – 1023px) */
 @media screen and (min-width: 900px) and (max-width: 1023px) {
-    /* ... */
+    .linkedin {
+        margin: 10em auto;
+        width: 9%;
+    }
 }
 
 /* Tablette portrait (768px – 899px) */
 @media screen and (min-width: 768px) and (max-width: 899px) {
-    /* ... */
+    .linkedin {
+        margin: 10em auto;
+        width: 9%;
+    }
 }
 
 /* Mobile standard (480px – 767px) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    /* ... */
+    .linkedin {
+        margin: 10em auto;
+        width: 30%;
+    }
 }
 
 /* Mobile petit (≤ 479px) */
 @media screen and (max-width: 479px) {
     .linkedin {
         margin: 10em auto;
-        width: 100px;
+        width: 30%;
     }
 }

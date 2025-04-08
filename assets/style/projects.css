@@ -43,10 +43,9 @@
     }
 
     .gitHub {
-        height: 100px;
+        width: 9%;
         left: 40em;
         top: 65em;
-        width: 100px;
         margin: 10em auto;
     }
 
@@ -54,7 +53,7 @@
         margin: 5em auto;
         margin-right: 7em;
         border-radius: 25px;
-        width: 50vw;
+        width: 50%;
         height: 50vh;
     }
 }
@@ -73,10 +72,9 @@
     }
 
     .gitHub {
-        height: 100px;
+        height: 9%;
         left: 16em;
         top: 45em;
-        width: 100px;
         margin: 10em auto;
     }
 
@@ -84,24 +82,96 @@
         margin: 5em auto;
         margin-right: 7em;
         border-radius: 25px;
-        width: 70vw;
+        width: 70%;
         height: 55vh;
     }
 }
 
 /* Tablette paysage (900px – 1023px) */
 @media screen and (min-width: 900px) and (max-width: 1023px) {
-    /* ... */
+    #projects {
+        width: 100%;
+        height: 40rem;
+    }
+
+    #projects h1 {
+        top: 98%;
+        font-size: 5rem;
+        margin: 1rem;
+    }
+
+    .gitHub {
+        width: 9%;
+        left: 16em;
+        top: 45em;
+        margin: 10em auto;
+    }
+
+    .projectList {
+        margin: 5em auto;
+        margin-right: 7em;
+        border-radius: 25px;
+        width: 70%;
+        height: 55vh;
+    }
 }
 
 /* Tablette portrait (768px – 899px) */
 @media screen and (min-width: 768px) and (max-width: 899px) {
-    /* ... */
+    #projects {
+        width: 100%;
+        height: 40rem;
+    }
+
+    #projects h1 {
+        top: 98%;
+        font-size: 5rem;
+        margin: 1rem;
+    }
+
+    .gitHub {
+        left: 16em;
+        top: 45em;
+        width: 9%;
+        margin: 10em auto;
+    }
+
+    .projectList {
+        margin: 5em auto;
+        margin-right: 7em;
+        border-radius: 25px;
+        width: 70%;
+        height: 55vh;
+    }
 }
 
 /* Mobile standard (480px – 767px) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    /* ... */
+    #projects {
+        width: 100%;
+        height: 40rem;
+    }
+
+    #projects h1 {
+        top: 98%;
+        font-size: 5rem;
+        margin: 1rem;
+    }
+
+    .gitHub {
+        left: 16em;
+        top: 45em;
+        width: 25%;
+        margin: 10em auto;
+    }
+
+    .projectList {
+        margin: 5em auto;
+        margin-right: 7em;
+        border-radius: 25px;
+        width: 70%;
+        height: 55vh;
+    }
 }
 
 /* Mobile petit (≤ 479px) */
@@ -119,16 +189,15 @@
     }
 
     .gitHub {
-        height: 100px;
-        left: 38.3vw;
-        top: 73vh;
-        width: 100px;
+        left: 37%;
+        top: 89%;
+        width: 25%;
         margin: 10em auto;
     }
 
     .projectList {
         border-radius: 25px;
-        width: 92vw;
+        width: 92%;
         height: 20vh;
     }
 }

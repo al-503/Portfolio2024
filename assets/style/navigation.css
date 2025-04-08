@@ -28,7 +28,7 @@ li {
 
 .navIcon {
     width: 3rem;
-    padding: 1.1rem;
+    padding: 0.5rem;
 }
 
 .navIcon:hover {
@@ -38,31 +38,28 @@ li {
 
 .navbar {
     width: 3rem;
-    height: 15rem;
-}
-
-@media screen and (min-width: 1440px) {
-    /* Styles pour ordinateurs grand écran*/
-}
-
-/* Laptop / desktop (1024px – 1439px) */
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-    /* ... */
+    height: 11rem;
 }
 
 /* Tablette paysage (900px – 1023px) */
 @media screen and (min-width: 900px) and (max-width: 1023px) {
-    /* ... */
+    .navbar {
+        display: none;
+    }
 }
 
 /* Tablette portrait (768px – 899px) */
 @media screen and (min-width: 768px) and (max-width: 899px) {
-    /* ... */
+    .navbar {
+        display: none;
+    }
 }
 
 /* Mobile standard (480px – 767px) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    /* ... */
+    .navbar {
+        display: none;
+    }
 }
 
 /* Mobile petit (≤ 479px) */
