@@ -7,8 +7,8 @@
     padding: 1rem;
     padding-top: 3rem;
     margin: 2rem auto;
-    margin-left: 0;
     display: flex;
+    width: 90%;
 }
 
 #projects h1 {
@@ -17,17 +17,13 @@
     color: var(--text-color);
 }
 
-.gitHub {
-    position: absolute;
-    text-align: center;
-}
-
 .projectList {
     box-shadow: inset 0 0 15px var(--text-color);
     background: url("../images/SoftwareEngineer-bro.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 90%;
 }
 
 @media screen and (min-width: 1440px) {
@@ -42,26 +38,15 @@
         margin: 1rem;
     }
 
-    .gitHub {
-        width: 9%;
-        left: 40em;
-        top: 65em;
-        margin: 10em auto;
-    }
-
     .projectList {
         margin: 5em auto;
-        margin-right: 7em;
         border-radius: 25px;
-        width: 50%;
-        height: 50vh;
     }
 }
 
 /* Laptop / desktop (1024px – 1439px) */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     #projects {
-        width: 100%;
         height: 40rem;
     }
 
@@ -71,26 +56,15 @@
         margin: 1rem;
     }
 
-    .gitHub {
-        height: 9%;
-        left: 16em;
-        top: 45em;
-        margin: 10em auto;
-    }
-
     .projectList {
         margin: 5em auto;
-        margin-right: 7em;
         border-radius: 25px;
-        width: 70%;
-        height: 55vh;
     }
 }
 
 /* Tablette paysage (900px – 1023px) */
 @media screen and (min-width: 900px) and (max-width: 1023px) {
     #projects {
-        width: 100%;
         height: 40rem;
     }
 
@@ -100,26 +74,15 @@
         margin: 1rem;
     }
 
-    .gitHub {
-        width: 9%;
-        left: 16em;
-        top: 45em;
-        margin: 10em auto;
-    }
-
     .projectList {
         margin: 5em auto;
-        margin-right: 7em;
         border-radius: 25px;
-        width: 70%;
-        height: 55vh;
     }
 }
 
 /* Tablette portrait (768px – 899px) */
 @media screen and (min-width: 768px) and (max-width: 899px) {
     #projects {
-        width: 100%;
         height: 40rem;
     }
 
@@ -129,26 +92,15 @@
         margin: 1rem;
     }
 
-    .gitHub {
-        left: 16em;
-        top: 45em;
-        width: 9%;
-        margin: 10em auto;
-    }
-
     .projectList {
         margin: 5em auto;
-        margin-right: 7em;
         border-radius: 25px;
-        width: 70%;
-        height: 55vh;
     }
 }
 
 /* Mobile standard (480px – 767px) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
     #projects {
-        width: 100%;
         height: 40rem;
     }
 
@@ -158,19 +110,9 @@
         margin: 1rem;
     }
 
-    .gitHub {
-        left: 16em;
-        top: 45em;
-        width: 25%;
-        margin: 10em auto;
-    }
-
     .projectList {
         margin: 5em auto;
-        margin-right: 7em;
         border-radius: 25px;
-        width: 70%;
-        height: 55vh;
     }
 }
 
@@ -178,7 +120,6 @@
 @media screen and (max-width: 479px) {
     #projects {
         margin: 0 auto;
-        width: 91%;
         flex-direction: column;
     }
 
@@ -188,16 +129,9 @@
         margin: 1rem;
     }
 
-    .gitHub {
-        left: 37%;
-        top: 89%;
-        width: 25%;
-        margin: 10em auto;
-    }
-
     .projectList {
         border-radius: 25px;
-        width: 92%;
+        width: 100%;
         height: 20vh;
     }
 }

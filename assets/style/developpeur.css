@@ -1,10 +1,16 @@
 .toqueDeChef {
     position: absolute;
+    width: 4rem;
+    top: 56%;
+    left: 68%;
 }
 
 .toqueIcon {
     width: 3rem;
-    padding: 1.1rem;
+}
+
+.test {
+    position: relative;
 }
 
 .sectionTitle {
@@ -36,11 +42,6 @@
     .sectionTitle {
         font-size: 5em;
     }
-
-    .toqueDeChef {
-        top: 54%;
-        left: 68%;
-    }
 }
 
 /* Laptop / desktop (1024px – 1439px) */
@@ -55,11 +56,6 @@
         margin-right: 30rem;
         margin-top: 2rem;
         font-size: 1em;
-    }
-
-    .toqueDeChef {
-        top: 56%;
-        left: 55%;
     }
 
     .sectionTitle {
@@ -81,11 +77,6 @@
         font-size: 1em;
     }
 
-    .toqueDeChef {
-        top: 56%;
-        left: 55%;
-    }
-
     .sectionTitle {
         font-size: 2em;
     }
@@ -103,11 +94,6 @@
         margin-right: 30rem;
         margin-top: 2rem;
         font-size: 1em;
-    }
-
-    .toqueDeChef {
-        top: 56%;
-        left: 55%;
     }
 
     .sectionTitle {
@@ -129,11 +115,6 @@
         font-size: 1em;
     }
 
-    .toqueDeChef {
-        top: 56%;
-        left: 55%;
-    }
-
     .sectionTitle {
         font-size: 2em;
     }
@@ -150,10 +131,5 @@
     .toqueIcon {
         width: 1.5rem;
         padding: 1.1rem;
-    }
-
-    .toqueDeChef {
-        top: 21%;
-        left: 55%;
     }
 }
