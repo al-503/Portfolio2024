@@ -141,6 +141,7 @@
         width: 1.5rem;
         height: 1.5rem;
         padding: 0.8rem;
+        box-sizing: content-box;
     }
 
     .FrontPanel {
