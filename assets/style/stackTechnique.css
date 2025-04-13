@@ -19,12 +19,18 @@
     position: absolute;
 }
 
+.techIcon {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.8rem;
+}
+
 @media screen and (min-width: 1440px) {
 
     /* Styles pour ordinateurs grand écran*/
     .techIcon {
-        width: 5rem;
-        height: 5rem;
+        width: 10rem;
+        height: 10rem;
         padding: 0.8rem;
     }
 
@@ -98,12 +104,12 @@
     }
 
     .FrontPanel {
-        left: 88vw;
+        left: 80vw;
         top: 25vh;
     }
 
     .BackPanel {
-        left: 68vw;
+        left: 62vw;
     }
 
     .DBPanel {
@@ -145,8 +151,7 @@
     }
 
     .FrontPanel {
-        left: 86vw;
-        top: 8vh;
+        top: 12vh;
     }
 
     .BackPanel {

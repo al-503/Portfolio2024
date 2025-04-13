@@ -99,6 +99,17 @@
     .sectionTitle {
         font-size: 2em;
     }
+
+    .toqueDeChef {
+        position: absolute;
+        width: 4rem;
+        top: 56%;
+        left: 62%;
+    }
+
+    .toqueIcon {
+        width: 2rem;
+    }
 }
 
 /* Mobile standard (480px – 767px) */
