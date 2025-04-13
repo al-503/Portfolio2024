@@ -71,6 +71,10 @@
     .linkedin {
         width: 18%;
     }
+
+    .reseaux {
+        margin: 0 auto;
+    }
 }
 
 /* Mobile standard (480px – 767px) */
