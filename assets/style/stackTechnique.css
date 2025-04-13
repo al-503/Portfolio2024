@@ -29,7 +29,7 @@
     }
 
     .FrontPanel {
-        left: 90vw;
+        left: 85vw;
         top: 30vh;
     }
 
@@ -68,17 +68,71 @@
 
 /* Tablette paysage (900px – 1023px) */
 @media screen and (min-width: 900px) and (max-width: 1023px) {
-    /* ... */
+    .techIcon {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.8rem;
+    }
+
+    .FrontPanel {
+        left: 88vw;
+        top: 25vh;
+    }
+
+    .BackPanel {
+        left: 68vw;
+    }
+
+    .DBPanel {
+        left: 22vw;
+        top: 6vh;
+    }
 }
 
 /* Tablette portrait (768px – 899px) */
 @media screen and (min-width: 768px) and (max-width: 899px) {
-    /* ... */
+    .techIcon {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.8rem;
+    }
+
+    .FrontPanel {
+        left: 88vw;
+        top: 25vh;
+    }
+
+    .BackPanel {
+        left: 68vw;
+    }
+
+    .DBPanel {
+        left: 22vw;
+        top: 6vh;
+    }
 }
 
 /* Mobile standard (480px – 767px) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    /* ... */
+    .techIcon {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.8rem;
+    }
+
+    .FrontPanel {
+        left: 88vw;
+        top: 25vh;
+    }
+
+    .BackPanel {
+        left: 68vw;
+    }
+
+    .DBPanel {
+        left: 22vw;
+        top: 6vh;
+    }
 }
 
 /* Mobile petit (≤ 479px) */
@@ -87,6 +141,7 @@
         width: 1.5rem;
         height: 1.5rem;
         padding: 0.8rem;
+        box-sizing: content-box;
     }
 
     .FrontPanel {
